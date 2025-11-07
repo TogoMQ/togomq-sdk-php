@@ -3,7 +3,7 @@
 ## Installation
 
 ```bash
-composer require togomq/togomq-sdk-php
+composer require togomq/togomq-sdk
 ```
 
 ## Basic Usage

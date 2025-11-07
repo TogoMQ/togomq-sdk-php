@@ -27,7 +27,7 @@ The official PHP SDK for [TogoMQ](https://togomq.io/) - a modern, high-performan
 Install the SDK using Composer:
 
 ```bash
-composer require togomq/togomq-sdk-php
+composer require togomq/togomq-sdk
 ```
 
 Make sure you have the gRPC PHP extension installed:

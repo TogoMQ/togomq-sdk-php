@@ -83,7 +83,7 @@ git push origin vX.Y.Z
 - [ ] GitHub release is created
 - [ ] Release notes are accurate
 - [ ] Packagist shows new version
-- [ ] Installation works: `composer require togomq/togomq-sdk-php:^X.Y.Z`
+- [ ] Installation works: `composer require togomq/togomq-sdk:^X.Y.Z`
 - [ ] Documentation links work
 
 ## Version Numbering Guidelines

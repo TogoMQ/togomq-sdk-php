@@ -1,5 +1,5 @@
 {
-    "name": "togomq/togomq-sdk-php",
+    "name": "togomq/togomq-sdk",
     "description": "Official PHP SDK for TogoMQ - A modern, high-performance message queue service",
     "type": "library",
     "keywords": ["togomq", "message-queue", "grpc", "pub-sub", "messaging", "sdk"],

@@ -117,4 +117,5 @@ jobs:
       if: steps.check_tag.outputs.exists == 'false'
       run: |
         echo "✅ Tag v${{ steps.new_version.outputs.new_version }} created successfully!"
-        echo "Packagist will be automatically updated via webhook."
+        echo "📦 Packagist will be automatically updated via webhook."
+        echo "Install with: composer require togomq/togomq-sdk:^${{ steps.new_version.outputs.new_version }}"
