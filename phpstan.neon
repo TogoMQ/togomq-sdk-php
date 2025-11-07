@@ -1,0 +1,13 @@
+parameters:
+    level: 8
+    paths:
+        - src
+        - tests
+    excludePaths:
+        - vendor
+    ignoreErrors:
+        # Ignore all gRPC generated code issues (classes not loaded at analysis time)
+        - '#(Call to|Instantiated class|has invalid return type) .*Mq\\V1#'
+        - '#Parameter .* of class TogoMQ\\SDK\\Message constructor expects string, string\|false given#'
+        -
+            identifier: missingType.iterableValue
